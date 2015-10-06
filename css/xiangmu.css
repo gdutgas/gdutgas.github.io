@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    font-size: 12px;
+}
+ul,li{
+    list-style-type: none;
+}
+#top{
+    background-image: url(../img/GDUT.jpg);
+    width: 1360px;
+    height: 130px;
+    overflow: hidden;
+}
+#top p {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: crimson;
+    font-weight: bold;
+}
+#top a{
+	text-decoration: none;
+}
+#asd{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#saosuo form{
+    height: 28px;
+    margin: 5px auto;
+    line-height: 26px;
+    width: 22em;
+    background-color:red;
+}
+.text{
+    width: 15em;
+    height: 20px;
+    border: 3px solid red;
+}
+.submit{
+    width: 3em;
+    background-color:red;
+    height: 26px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: white;
+}
+#shouye {
+    background-image: url(../img/dixian.jpg);
+    margin-top: 12px;
+}
+#shouye ul{
+    height: 46px;
+    width: 1260px;
+    list-style-type: none;
+}
+#shouye ul li{
+    padding-top: 1px;
+    padding-left:62px;
+    padding-right: 62px;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#shouye ul li a{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+}
+#shouye ul li a:hover{
+    background-color: red;
+}
+#main{
+    width: 100em;
+    margin: 0 auto;
+    height: 700px ;
+ /*   background-color: blue;*/
+
+}
+#shipin{
+    width: 1100px;
+    height: 500px;
+    background-color: #00cccc;
+    border: double;
+    margin: 0 auto;
+
+}
+#shuoming{
+    height: 200px;
+}
+.kuai {
+    width: 24%;
+    height: 185px;
+    float: left;
+    border: double;
+    margin: 2px;
+    background-color: #990066;
+}
+#footer{
+    width: 105em;
+    padding-top: 10px;
+    height: 70px;
+    margin:5px auto;
+    background-color: darkgrey;
+    line-height: 15px;
+    text-align: center;
+}
+#foot ul{
+    width: 35em;
+    height: 30px;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#foot ul li {
+    float: left;
+    padding-left:20px;
+}
+#foot ul li a{
+    display: block;
+    text-decoration: none;
+}
+/*
+#shipin .banner_index {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 0;
+}
+#shipin .banner_wrap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#main #shipin .banner_index ul {
+    list-style-type: none;
+}
+#shipin .banner_wrap li{
+    width: 1200px;
+    float: left;
+}
+#shipin .indexBanner_num{
+    width:894px;
+    margin: 0 auto;
+    padding:0 0;
+    text-align: center;
+}
+#shipin .indexBanner_num a{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    display: none
+    _zoom:1;
+    background-image: url(../img/bg.jpg);
+    font-size: 0;
+    line-height: 0;
+    margin:0 0;
+}
+#shipin .indexBanner_num a.on,.indexBanner_num a:hover{
+    background-image: url(../img/bg_num_on.png);
+}
+
+.banner_index .btn,.banner_pro .bBtn{
+    position: absolute;
+    top:235px;
+    width: 56px;
+    height: 78px;
+    display: block;
+    z-index: 3;
+}
+.banner_index .btnPre,.banner_pro .bPre{
+    background-image: url(../img/left.png);
+    left:0;
+}
+.banner_index .btnPre:hover,.banner_pro .bPre:hover{
+    background-image: url(../img/left_hover.png);
+}
+.banner_index .btnNext,.banner_pro .bNext{
+    background-image: url(../img/right.png);
+    right: 0;
+}
+.banner_index .btnNext:hover,.banner_pro .bNext:hover{
+    background-image: url(../img/right_hover.png);
+}
+*/
+/**{
+    margin: 0;
+    border: 0;
+}
+body{
+    font-size: 12px;
+
+}
+#top{
+    background-image: url(img/GDUT.jpg);
+    width: 115em;
+    height: 130px;
+    overflow: hidden;
+}
+#top p {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: crimson;
+    font-weight: bold;
+}
+#asd{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#saosuo form{
+    height: 28px;
+    margin: 5px auto;
+    line-height: 26px;
+    width: 22em;
+    background-color:red;
+}
+.text{
+    width: 15em;
+    height: 20px;
+    border: 3px solid red;
+}
+.submit{
+    width: 3em;
+    background-color:red;
+    height: 26px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: white;
+}
+#shouye {
+    background-image: url(img/dixian.jpg);
+    margin-top: 12px;
+}
+#shouye ul{
+    height: 46px;
+    width: 110em;
+    list-style-type: none;
+}
+#shouye ul li{
+    padding-top: 1px;
+    padding-left:64px;
+    padding-right: 64px;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#shouye ul li a{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+
+}
+#shouye ul li a:hover{
+    background-color: red;
+}
+#main{
+    width: 100em;
+    margin: 0 auto;
+    height: 700px ;
+    background-color: blue;
+}
+#shipin{
+    width: 90%;
+    height: 500px;
+    background-color: #00cccc;
+    border: double;
+    margin: 0 auto;
+
+}
+#shuoming{
+    height: 200px;
+}
+.kuai {
+    width: 24%;
+    height: 185px;
+    float: left;
+    border: double;
+    margin: 2px;
+    background-color: #990066;
+}
+#footer{
+    width: 105em;
+    padding-top: 10px;
+    height: 70px;
+    margin:5px auto;
+    background-color: darkgrey;
+    line-height: 15px;
+    text-align: center;
+}
+#foot ul{
+    width: 35em;
+    height: 30px;
+    list-style-type: none;
+
+    line-height: 20px;
+    margin: 0 auto;
+}
+#foot ul li {
+
+    float: left;
+    padding-left:20px;
+
+}
+#foot ul li a{
+    display: block;
+}*/
